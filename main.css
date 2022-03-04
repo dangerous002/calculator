@@ -1,0 +1,93 @@
+.buttons{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn{
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.2s ease;
+}
+
+.btn:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+*{
+    font-size: 22px;
+    font-family: Arial;
+}
+
+.expression{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+
+.expression:focus{
+    outline: none;
+}
+
+.calculator {
+    width: 350px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 25px;
+    padding-top: 40px;
+    background: linear-gradient(to top, rgb(53, 53, 53), rgb(80, 80, 80));
+    margin-top: 20%;
+    margin: 0 auto;
+}
+
+.control-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.count, .clear{
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: #000;
+    transition: 0.2s ease;
+}
+
+.count:hover, .clear:hover, #delete:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+#delete{
+    width: 130px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    transition: 0.2s ease;
+}
