@@ -22,10 +22,6 @@
     transition: 0.2s ease;
 }
 
-.btn:hover{
-    background-color: rgb(206, 206, 206);
-}
-
 *{
     font-size: 22px;
     font-family: Arial;
@@ -75,8 +71,10 @@
     transition: 0.2s ease;
 }
 
-.count:hover, .clear:hover, #delete:hover{
-    background-color: rgb(206, 206, 206);
+@media screen and (min-width: 720px){
+    .count:hover, .clear:hover, .btn:hover, #delete:hover{
+        background-color: rgb(206, 206, 206);
+    }
 }
 
 #delete{
